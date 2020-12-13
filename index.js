@@ -8,5 +8,20 @@ class Polygon {
     return this.array.length;
   }
   
+  get perimeter(){
+    let sum = 0;
+    for(let val of this.array){
+      sum+=val;
+    }
+    return sum;
+  }
+  
+}
+class Triangle extends Polygon{
+  get isValid(){
+    for(let val of this.array){
+      if()
+    }
+  }
   
 }
